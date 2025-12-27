@@ -35,7 +35,7 @@ public class User : BaseEntity
 public class Post : BaseEntity
 {
     public string Content { get; set; }
-    public Guid UserId { get; set; }
+    public User User { get; set; }
 }
 ```
 
@@ -49,7 +49,7 @@ using JsonBatchClient.Base;
 var batchRequest = new BatchRequest();
 
 var user = new User { Id = Guid.NewGuid(), Name = "John Doe" };
-var post = new Post { Id = Guid.NewGuid(), Content = "Hello World", UserId = user.Id };
+var post = new Post { Id = Guid.NewGuid(), Content = "Hello World", User = user };
 
 // Add operations
 // Note: The order of adding operations might matter depending on your server-side logic, 
