@@ -7,7 +7,7 @@ The library is designed with flexibility in mind, offering a base core library a
 ## Project Structure
 
 *   **JsonBatchClient.Base**: Contains the core interfaces, models (`BatchRequest`, `BatchResponse`), and the abstract `DefaultClient`.
-*   **JsonBatchClient.Json**: Implementation of the client using `System.Text.Json`.
+*   **JsonBatchClient.Json**: Implementation of the client using `System.Text.Json`, the new standard.
 *   **JsonBatchClient.Newtonsoft**: Implementation of the client using `Newtonsoft.Json`.
 
 ## Key Features
