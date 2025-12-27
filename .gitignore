@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/JsonBatchClient/bin/Debug
+/JsonBatchClient/obj
+/JsonBatchClient.Json/bin/Debug
+/JsonBatchClient.Json/obj
+/JsonBatchClient.Newtonsoft/bin/Debug
+/JsonBatchClient.Newtonsoft/obj
